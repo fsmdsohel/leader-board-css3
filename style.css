@@ -314,6 +314,9 @@ header {
     justify-content: center;
     flex-direction: column;
   }
+  .navbar {
+    height: 65px;
+  }
 }
 
 /* tablet pc */
@@ -328,6 +331,9 @@ header {
   .courses {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 30px;
+  }
+  .navbar {
+    height: 65px;
   }
 }
 
