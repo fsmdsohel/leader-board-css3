@@ -282,7 +282,7 @@ header {
     font-size: 30px;
   }
   .players {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .top--blog__title {
