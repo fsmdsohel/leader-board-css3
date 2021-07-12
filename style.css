@@ -77,7 +77,7 @@ header {
   border-radius: 5px;
   transition: background 0.2s linear;
 }
-.navbar--item .navbar__link:hover {
+.navbar--item:not(:last-child) .navbar__link:hover {
   background: #ffffff69;
 }
 .navbar__link:last-child {
